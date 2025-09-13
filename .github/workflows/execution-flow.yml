@@ -86,7 +86,7 @@ jobs:
       - name: Output information
         run: |
           echo "Something went wrong!"
-          echo "${{ toJSON(github)xxs }}"
+          echo "${{ toJSON(github) }}"
           echo "Lint job status: ${{ needs.lint.result }}"
           echo "Test job status: ${{ needs.test.result }}"
           echo "Build job status: ${{ needs.build.result }}"
